@@ -1,2 +1,2 @@
 build:
-	g++ -o smartcells.o -Wall -Wextra -lsfml-system -lsfml-graphics -lsfml-window *.cpp
+	g++ -o smartcells.o -Wall -Wextra -lsfml-system -lsfml-graphics -lsfml-window src/*.cpp
