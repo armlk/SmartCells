@@ -20,7 +20,7 @@ const size_t BRIGHTNESS = 100;
 const bool DRAW_ARROWS = true;
 const float ARROW_THICKNESS = 2.0f;
 const float ARROW_LENGTH = 5.0f;
-bool plau = false;
+bool tickerOnRight = false;
 
 enum CellType { INACTIVE, IS, AND, NOT, OR, ON };
 
@@ -502,9 +502,9 @@ int main() {
             }
         }
 
-        plau = !plau;
+        tickerOnRight = !tickerOnRight;
         sf::CircleShape c(50.0f);
-        c.setPosition({plau ? 0.0f : SIZE - 100.0f, 0});
+        c.setPosition({tickerOnRight ? 0.0f : SIZE - 100.0f, 0});
         c.setFillColor(sf::Color::White);
         drawCanvas(window, cells);
         window.draw(c);
