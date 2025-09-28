@@ -1,4 +1,4 @@
-#SmartCells
+# SmartCells
 
 Submission for the UF Open-Source Club Mini-Hackathon of 9/27/2025
 
