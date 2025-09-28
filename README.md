@@ -1,3 +1,14 @@
+Project:
+- Random Boolean Network
+- 
+
+
+"Requirements":
+- Ai/machine learning/computer vision/generative models
+- People interaction or systems interaction
+- Novel
+
+Ideas:
 - time planner
 - neuralink pain simulator
 - interactive neural network teaching tool
