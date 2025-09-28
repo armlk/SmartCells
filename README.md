@@ -21,7 +21,7 @@ Requirements:
 - Novel?
       - Introduces a new type of neural network using binary values, logic gates, and recurrent freeform connections.
 
-![Logical XOR](./images/SmartCells-XOR.png)
+<img src="./images/SmartCells-XOR.png" alt="Logical XOR" width="400"/>
 
 
 Idea brainstorm:
