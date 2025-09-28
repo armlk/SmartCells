@@ -13,9 +13,9 @@
 std::pair<int, int> offsets[9] = {{0, 0}, {-1, -1}, {0, -1}, {1, -1}, {-1, 0},
                                   {1, 0}, {-1, 1},  {0, 1},  {1, 1}};
 const size_t SIZE = 1000;
-const size_t GRID_SIZE = 7;
+const size_t GRID_SIZE = 12;
 const size_t CELL_SIZE = SIZE / GRID_SIZE;
-const size_t INITIAL_SIZE = 0;
+const size_t INITIAL_SIZE = 10;
 const size_t BRIGHTNESS = 100;
 const bool DRAW_ARROWS = true;
 const float ARROW_THICKNESS = 2.0f;

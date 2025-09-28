@@ -2,9 +2,9 @@
 
 void drawLegend(sf::RenderWindow& window, const sf::Font& font) {
     const uint8_t brightness = 100;
-    const float padding = 20.f;
-    const float boxSize = 20.f;
-    const float spacing = 10.f;
+    const float padding = 20.0f;
+    const float boxSize = 20.0f;
+    const float spacing = 10.0f;
     const float textOffset = 30.f;
 
     struct LegendItem {
@@ -20,13 +20,13 @@ void drawLegend(sf::RenderWindow& window, const sf::Font& font) {
     };
 
     float legendHeight = items.size() * (boxSize + spacing) - spacing;
-    float legendWidth = 180.f; // Adjust as needed for label length
+    float legendWidth = 80.0f;
 
     sf::Vector2u winSize = window.getSize();
     float startX = winSize.x - legendWidth - padding;
     float startY = winSize.y - legendHeight - padding;
 
-    for (size_t i = 0; i < items.size(); ++i) {
+    for (size_t i = 0; i < items.size(); i++) {
         float y = startY + i * (boxSize + spacing);
 
         sf::RectangleShape rect(sf::Vector2f(boxSize, boxSize));
