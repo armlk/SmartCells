@@ -1,6 +1,7 @@
 #include "legend.hpp"
 
 void drawLegend(sf::RenderWindow& window, const sf::Font& font) {
+    const uint8_t brightness = 100;
     const float padding = 20.f;
     const float boxSize = 20.f;
     const float spacing = 10.f;
@@ -12,10 +13,10 @@ void drawLegend(sf::RenderWindow& window, const sf::Font& font) {
     };
 
     std::vector<LegendItem> items = {
-        {sf::Color::Red,   "red meaning"},
-        {sf::Color::Green, "green meaning"},
-        {sf::Color(255, 105, 180), "pink meaning"}, // Hot pink
-        {sf::Color::Yellow, "yellow meaning"}
+        {{brightness, 0, 0},   "IS"},
+        {{0, brightness, 0}, "AND"},
+        {{brightness, 0, brightness}, "NOT"},
+        {{brightness, brightness, 0}, "OR"}
     };
 
     float legendHeight = items.size() * (boxSize + spacing) - spacing;
