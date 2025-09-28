@@ -26,6 +26,7 @@ Requirements:
   <figcaption>Figure: Logical XOR</figcaption>
 </figure>
 
+<br><br><br>
 
 Idea brainstorm:
 - time planner
