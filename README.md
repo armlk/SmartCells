@@ -10,7 +10,7 @@
     + simulife hub
     + particle life
     + morphogenesis
-        = how do we make it AI?
+        + how do we make it AI?
             - focus on brain-heavy organisms: cells become neural networks
-        = smartcells
+        + smartcells
     + boolean network
