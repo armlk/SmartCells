@@ -8,8 +8,7 @@ This RBN system is meant to challenge the user to implement their own more compl
 
 Our original plan included implementing a genetic algorithm to automatically evolve and perform simple computations and even control simple virtual organisms, but time constraints limited this goal. Pairing SmartCells with a genetic algorithm would have firmly classified this as an artificial intelligence project, as the RBN is basically an easily modifiable computation machine - with an added benefit of freeform recursive connections which allow for memory of past states. However, this currently remains a TODO and will be pursued sometime later in the future.
 
-
-
+https://youtu.be/5tFxY38m6d0
 
 Requirements:
 - Helps improve quality of life?
